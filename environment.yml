@@ -1,0 +1,14 @@
+name: cogrob
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - ipykernel
+  - numpy
+  - matplotlib
+  - pip: 
+    - tensorflow-directml
+    - split-folders
+    - visualkeras
+    - pillow
